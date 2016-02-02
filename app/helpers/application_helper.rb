@@ -1,11 +1,12 @@
 module ApplicationHelper
+
 # Retourner un titre basé sur la page.
   def titre
-    base_titre = "Cinephile"
+    base_title = "CinephileApp"
     if @titre.nil?
-      base_titre
+      base_title
     else
-      "#{base_titre} | #{@titre}"
+      "#{base_title} | #{@titre}"
     end
   end
 end
